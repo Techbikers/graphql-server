@@ -1,0 +1,18 @@
+{
+  "name": "techbikers-graphql",
+  "version": "0.1.0",
+  "description": "GraphQL API for TechBikers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Willmott <mwillmott@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "apollo-server-express": "^2.8.1",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2"
+  }
+}
